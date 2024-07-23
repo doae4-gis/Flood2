@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>flood_mkn</title>
+<title>สถานการณ์น้ำอ่างเก็บน้ำห้วยเชียงคำ จ.มหาสารคาม</title>
 <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 <base target="_blank">
 <link rel="stylesheet" type="text/css" href="./Qgis2threejs.css">
@@ -95,14 +95,16 @@
 </div>
 
 <!-- header and footer -->
-<div id="header">แผนที่แสดงพื้นที่ได้รับผลกระทบจากอ่างเก็บน้ำห้วยเชียงคำ(แตก) ต.โนนราษี อ.บรบือ จ.มหาสารคาม
-เมื่อวันที่ 16 กรกฎาคม 2567</div>
-<div id="footer">หมายเหตุ : 
-1. ข้อมูลพื้นที่น้ำม่วม จาก Thailand Flood Monitoring System - Gistda
-2. ภูมิประเทศตกแต่งเพิ่มเติม เพื่อให้เห็นความสูงในพื้นที่ชัดเจนมากขึ้น (ในความเป็นจริงเป็นพื้นที่ราบลุ่ม)
-3. จัดทำโดย สำนักงานส่งเสริมและพัฒนาการเกษตรที่ 4 จังหวัดขอนแก่น กรมส่งเสริมการเกษตร 
-</div>
+<div id="header"><div id="infobtn">i</div>แผนที่รายงานสถานการณ์น้ำ จากอ่างเก็บน้ำห้วยเชียงคำ ต.โนนราษี อ.บรบือ จ.มหาสารคาม เมื่อวันที่ 16 กรกฎาคม 2567</div>
 
+<!-- footer -->
+<div id="footer"><div id="infobtn">i</div>
+<p><img src="https://doaenews.doae.go.th/wp-content/uploads/2022/03/LOGO-DOAE.png" width="15%"/>
+<p> หมายเหตุ : 
+<p> 1. ข้อมูลพื้นที่น้ำม่วม จาก Thailand Flood Monitoring System - Gistda
+<p> 2. ภูมิประเทศตกแต่งเพิ่มเติม เพื่อให้เห็นความสูงในพื้นที่ชัดเจนมากขึ้น (ในความเป็นจริงเป็นพื้นที่ราบลุ่ม)
+<p> 3. จัดทำโดย สำนักงานส่งเสริมและพัฒนาการเกษตรที่ 4 จังหวัดขอนแก่น กรมส่งเสริมการเกษตร  
+</div>
 <!-- layer panel -->
 <div id="layerpanel">
   <div id="layerlist"></div>
@@ -118,10 +120,10 @@
 
 <script>
 Q3D.Config.allVisible = true;
-Q3D.Config.viewpoint = {lookAt:{x:342337.0911700491,y:1733101.1110496654,z:108.15258026123047},pos:{x:330155.2022675863,y:1612226.0408658779,z:1464.6496471151006}};
+Q3D.Config.viewpoint = {lookAt:{x:342057.9289682531,y:1732304.4639836953,z:67.59536266326904},pos:{x:340105.1542071346,y:1679045.5666507632,z:3899.6715340841047}};
 Q3D.Config.localMode = true;
 Q3D.Config.northArrow.enabled = true;
-Q3D.Config.northArrow.color = 0x296629;
+Q3D.Config.northArrow.color = 0x666666;
 
 var container = document.getElementById("view"),
     app = Q3D.application,
