@@ -17,7 +17,7 @@ function ViewHelper( editorCamera, container ) {
 
 		scope.handleClick( event );
 
-	} ); 
+	} );
 
 	panel.dom.addEventListener( 'mousedown', function ( event ) {
 

@@ -34,7 +34,7 @@ Q3D.Config = {
 			pos: new THREE.Vector3(0, -1, 1),
 			lookAt: new THREE.Vector3()
 		}
-	}, 
+	},
 
 	// light
 	lights: {
